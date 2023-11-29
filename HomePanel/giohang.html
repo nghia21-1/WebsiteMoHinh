@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.9.0/slick/slick.css"/>
+    <title>Giỏ hàng</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: cadetblue;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .cart {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .cart-button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa fa-bars"></i>
+                </label>
+                <ul>
+                  <li><a class="active" href="index.html"><i class="fa-solid fa-house"></i> Trang chủ</a></li>
+                  <li><a href="#"><i class="fa-solid fa-bell"></i> Tin tức</a></li>
+                  <li><a href="gioithieu.html"><i class="fa-solid fa-film"></i> Giới thiệu</a></li>
+                  <li><a href="camnang.html"><i class="fa-solid fa-book-open"></i> Cẩm nang</a></li>
+                  <li><a href="sanpham.html"><i class="fa-solid fa-chart-simple"></i> Sản phẩm</a>
+                    <ul class="menucon">
+                        <li><a href="#">Mô hình 1</a></li>
+                        <li><a href="#">Mô hình 1</a></li>
+                        <li><a href="#">Mô hình 1</a></li>
+                    </ul>
+                    </li>
+                  <li><a href="khuyenmai.html"><i class="fa-solid fa-gift"></i> Khuyến mãi</a></li>
+                  <li><a href="lienhe.html"><i class="fa-solid fa-phone"></i> Liên hệ</a></li>
+                  <li><a href="#"><i class="fa-solid fa-user"></i> Tài khoản</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="cart">
+        <h1>Giỏ hàng của bạn</h1>
+        <table>
+            <tr>
+                <th>STT</th>
+                <th>Sản phẩm</th>
+                <th>hình ảnh</th>
+                <th>Giá</th>
+                <th>Số lượng</th>
+                <th>Tổng</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Áo sơ mi</td>
+                <td><img src="https://images.pexels.com/photos/374869/pexels"</td>
+                <td>30.00 USD</td>
+                <td>2</td>
+                <td>60.00 USD</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Quần jeans</td>
+                <td><img src="https://images.pexels.com/photos/57690/rose-red-"</td>
+                <td>50.00 USD</td>
+                <td>1</td>
+                <td>50.00 USD</td>
+            </tr>
+            <tr>
+                
+                <td>Tất cả</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>110.00 USD</td>
+            </tr>
+        </table>
+
+        <button class="cart-button">Tiến hành thanh toán</button>
+    </div>
+</body>
+</html>

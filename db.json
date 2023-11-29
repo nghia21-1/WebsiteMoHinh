@@ -1,0 +1,35 @@
+{
+  "user": [
+    {
+      "full_name": "Nghia",
+      "date_of_birth": "2001-10-20",
+      "phone_number": "1234567890",
+      "create_at": "2001-12-31",
+      "id": 1
+    },
+    {
+      "full_name": "Thien",
+      "date_of_birth": "2023-11-09",
+      "phone_number": "1234567980",
+      "create_at": "2023-11-22",
+      "id": 2
+    },
+    {
+      "full_name": "Hanh",
+      "date_of_birth": "2001-02-12",
+      "phone_number": "12435678",
+      "create_at": "2023-11-11",
+      "id": 3
+    }
+  ],
+  "product": [
+    {
+      "name_product": "neko",
+      "image": "",
+      "description": "345",
+      "price": "666",
+      "stock": "66666",
+      "id": 3
+    }
+  ]
+}

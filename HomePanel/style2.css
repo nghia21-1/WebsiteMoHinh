@@ -1,0 +1,73 @@
+.main{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #626a67;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 23 px;
+    font-weight: bold;
+    text-align: left;
+    color:#fa6e4f;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 21px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left; 
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for paragraphs */
+  p {
+    margin-bottom: 20px;
+    text-align:left;
+    margin-left: 20px;
+    font-size: 17px;
+  
+  }
+  
+  /* Styling for images */
+  .img1{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the unordered list */
+  ul {
+    text-align: left;
+    list-style-type: disc;
+    margin-left: 20px;
+  }
